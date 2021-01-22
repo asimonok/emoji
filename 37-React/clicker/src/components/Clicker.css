@@ -5,6 +5,8 @@
     
 }
 .viewNumber {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 67%;
 }
@@ -12,6 +14,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200px;
+    color: gray;
 }
 .wrapper {
     display: flex;
@@ -37,12 +42,23 @@ button {
     border: 0;
     outline: none;
 }
+
 .plus button {
     background-color: green;
+}
+.plus button:hover {
+    background-color:#006400;
+    
 }
 .refresh button {
     background-color: yellow;
 }
+.refresh button:hover {
+    background-color: #FFD700;
+}
 .minus button {
     background-color: red;
+}
+.minus button:hover {
+    background-color: #B22222;
 }
