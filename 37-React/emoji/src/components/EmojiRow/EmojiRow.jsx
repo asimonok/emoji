@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function EmojiRow(emoji) {
+export default function EmojiRow({ emoji }) {
     return (
         <tr>
             <td>{emoji.symbol}</td>
